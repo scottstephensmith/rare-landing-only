@@ -137,9 +137,9 @@ a:focus {
     height: auto;
     padding: 100px 0;
     text-align: center;
-    color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
-    background-color: #000;
+    color: #000;
+    background: no-repeat bottom center scroll;
+    background-color: #FFF;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -153,10 +153,13 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 40px;
+    width:100%;
 }
 
 .intro .intro-body .intro-text {
     font-size: 18px;
+    line-height: 100%;
+    margin-top:15px;
 }
 
 @media(min-width:767px) {
@@ -331,11 +334,16 @@ ul.banner-social-buttons {
 }
 
 footer {
-    padding: 50px 0;
+    padding: 5px 0;
 }
 
 footer p {
     margin: 0;
+    padding:20px 0px 20px 0px;
+}
+
+footer p small {
+    font-size:12px;
 }
 
 ::-moz-selection {
